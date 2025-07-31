@@ -1,0 +1,5 @@
+pyinstaller --onefile --noconsole --icon="icon.ico" `
+ --add-data "logo.png;." `
+ --add-data "icon.ico;." `
+ --add-data ".venv\Lib\site-packages\whisper\assets;whisper/assets" `
+ aurora.py
