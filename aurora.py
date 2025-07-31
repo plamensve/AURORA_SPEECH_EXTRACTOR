@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter import ttk
+import whisper
 from tkinterdnd2 import TkinterDnD, DND_FILES
 from moviepy import VideoFileClip
 from PIL import Image, ImageTk
-import whisper
 import threading
 import os
 import sys
